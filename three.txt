@@ -1,0 +1,7 @@
+one
+<<<<<<< HEAD:one.txt
+this is in main branch
+=======
+three has been written
+one and two are both side by side
+>>>>>>> development:three.txt
