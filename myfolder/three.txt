@@ -1,1 +1,5 @@
-three under myfolder under git-learning
+one
+<<<<<<< HEAD:one.txt
+this is in main branch
+=======
+
