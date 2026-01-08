@@ -1,8 +1,14 @@
+
 const inputBtn = document.getElementById("input-btn");
 const inputEl = document.getElementById("input-el");
-let myLeads = [];
+let myLeads = ["Abhimanyu ", "Aman ", "Avy"];
+let list = document.getElementById("list-el");
 
 inputBtn.addEventListener("click", () => {
-  myLeads.push(inputEl.value)
-  console.log(myLeads)
+  for (let i = 0; i < myLeads.length; i++) {
+    // list.innerHTML += "<li>" + myLeads[i] + "</li>";
+    const li = document.createElement("li")
+    li.textContent = myLeads[i]
+    list.append(li)
+}
 });
