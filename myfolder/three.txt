@@ -1,5 +1,0 @@
-one
-<<<<<<< HEAD:one.txt
-this is in main branch
-=======
-
